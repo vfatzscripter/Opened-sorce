@@ -1,0 +1,2084 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "games (ping hub)" .. Fluent.Version,
+    SubTitle = "by itsvfatz",
+    TabWidth = 80,
+    Size = UDim2.fromOffset(720, 480),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+    Fluent:Notify({
+        Title = "WARNING!",
+        Content = "you might get an ban when using",
+        SubContent = "owner of the script is not resposibe with any ban!",
+        Duration = 5
+    })
+	
+	local Tabs = {
+    adustytrip = Window:AddTab({ Title = "adustytrip", Icon = "" }),
+}
+Tabs.adustytrip:AddButton({
+        Title = "connect hub",
+        Description = "",
+        Callback = function()
+            
+        end
+    })
+Tabs.adustytrip:AddButton({
+        Title = "connect hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+        end
+    })
+Tabs.adustytrip:AddButton({
+        Title = "TTJY hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/NewCMain/main/Main.lua"))()
+        end
+    })
+Tabs.adustytrip:AddButton({
+        Title = "dupe v1 best",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/DustyTripThacScript/refs/heads/main/dupe_pre-release"))()
+        end
+    })
+Tabs.adustytrip:AddButton({
+        Title = "dupe v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://github.com/ThacG/EruditeHubV2/blob/main/eruditehubdupeV2source"))()
+        end
+    })
+local Tabs = {
+    bloxfruit = Window:AddTab({ Title = "bloxfruit", Icon = "" }),
+}
+
+Tabs.bloxfruit:AddButton({
+        Title = "min hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinMasEng"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "attack hub",
+        Description = "",
+        Callback = function()
+            _G.Team = "Pirate" --Pirate or Marine
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KOBENFF/sdfd/refs/heads/main/Koatta.txt"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "damon hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/seagame/main/Damonvip.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "greenX",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BreakNameFast8/GreenX/refs/heads/main/green.hack"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "kaitun hub",
+        Description = "",
+        Callback = function()
+            _G.Quest = {
+    ['RGB Aura Haki'] = true,
+    ['Pull Lever'] = true,
+    ['Quest Dough Awaken'] = true
+}
+_G.Race = {
+    ['Select Race'] = {'Human','Fishman','Skypiea','Mink'},
+    ['Lock Race'] = true,
+    ['Evo Race V3'] = true
+}
+_G.Melee = {
+    ['Godhuman'] = true
+}
+_G.Sword = {
+    ['Saber'] = true,
+    ['Midnight Blade'] = true,
+    ['Shisui'] = true,
+    ['Saddi'] = true,
+    ['Wando'] = true,
+    ['Yama'] = true,
+    ['Koko'] = false,
+    ['Rengoku'] = true,
+    ['Canvander'] = true,
+    ['Buddy Sword'] = true,
+    ['Twin Hooks'] = true,
+    ['SpikeyTrident'] = true,
+    ['Hallow Scryte'] = true,
+    ['Dark Dagger'] = true,
+    ['Tushita'] = true,
+    ['True Triple Katana'] = true,
+    ['Cursed Dual Katana'] = true,
+    ['Shark Anchor'] = true
+}
+_G.Gun = {
+    ['Kabucha'] = true,
+    ['Acidum Rifle'] = true,
+    ['Soul Guitar'] = true,
+    ['Serpent Bow'] = true
+}
+_G.Fruit = {
+    ['Main Fruit'] = {'Kitsune-Kitsune','T-Rex-T-Rex','Mammoth-Mammoth'},
+    ['Select Fruit'] = {'Dark-Dark','Magma-Magma'}
+}
+_G.Mastery = {
+    ['Melee'] = true,
+    ['Sword'] = true,
+    ['Fruit'] = true
+}
+_G.Setting = {
+    ['FPS Booster'] = true,
+    ['Auto Close Ui'] = false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/refs/heads/main/Kaitun.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "relz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "aurora",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/Aurora", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "bounty",
+        Description = "",
+        Callback = function()
+            Setup = {
+    ['PC-er'] = false,
+    ['Team'] = 'Pirates',
+    ['Auto Team'] = {
+        ['Enabled'] = false,
+        ['Lock'] = {
+            ['Pirate'] = {0, 30000000},
+            ['Marines'] = {0, 30000000}
+        }
+    },
+    ['Panic % Health'] = {35, 55},
+    ['Chatting'] = {},
+    ['Lock Cam'] = false,
+    ['Hop Region'] = 'Singapore',
+    ['Random Y Tween'] = false,
+    ['Click Delay'] = 0.2
+}
+Hunter = {
+    ['Ignore'] = {
+        ['Fruit'] = {
+            'Meme-Meme'
+        },
+        ['Timer'] = 72,
+        ['V4'] = false
+    },
+    ['Gun Mode'] = false,
+    ['Predict Move'] = true,
+    ['Hit And Run'] = true,
+    ['Random Position'] = false
+}
+Booster = {
+    ['Hide Gui'] = false,
+    ['Showcase Mode'] = false,
+    ['White Screen'] = false,
+    ['Hide Map'] = false
+}
+Skills = {
+    ['Melee'] = {
+        ['Enabled'] = {true, true},
+        ['Z'] = {true, 0.1, 0.165},
+        ['X'] = {true, 0.3, 0.246},
+        ['C'] = {true, 0.5, 0.125}
+    },
+    ['Blox Fruit'] = {
+        ['Enabled'] = {false, false},
+        ['Z'] = {true, 1.325, 0.9},
+        ['X'] = {true, 0.6, 0.235},
+        ['C'] = {true, 0.2, 0.435},
+        ['V'] = {true, 0.3, 0.195},
+        ['F'] = {true, 0, 0.6}
+    },
+    ['Sword'] = {
+        ['Enabled'] = {true, true},
+        ['Z'] = {true, 0.5, 0.2},
+        ['X'] = {true, 0.3, 0.4},
+    },
+    ['Gun'] = {
+        ['Enabled'] = {false, false},
+        ['Z'] = {false, 0, 0},
+        ['X'] = {false, 0, 0},
+    }
+}
+Macro = {
+    ['Enabled'] = true,
+    ['Skills'] = {
+        [1] = {'Melee', {'C', 'Z'}},
+        [2] = {'Blox Fruit', {'F','C'}},
+        [3] = {'Sword', {'X', 'Z'}},
+        [4] = {'Melee', {'X'}},
+        [5] = {'Gun', {'Z', 'V'}},
+        [6] = {'Blox Fruit', {'Z', 'F'}}
+    }
+}
+Counter = {
+    ['Enabled'] = true,
+    ['Webhook'] = {
+        ['Enabled'] = false,
+        ['Url'] = ''
+    },
+    ['Theme'] = {
+        ['Character'] = 'Yae',
+        ['Custom'] = {
+            ['Enabled'] = false,
+            ['Config'] = {
+                ['Background'] = '',
+                ['Character'] = '',
+                ['Icon'] = '',
+                ['Button Image'] = '',
+                ['Color'] = {
+                    ['Text'] = Color3.fromRGB(255, 255, 255),
+                    ['Stroke'] = Color3.fromRGB(255, 255, 255)
+                }
+            }
+        }
+    },
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ErutTheTeru/ruahub/refs/heads/main/bounty-hunter.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ZET",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptztyz/robloxscript/refs/heads/main/ZetHubMainScript"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "lunar",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/anhyeuem/main/bloxshitfarm.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "smile",
+        Description = "",
+        Callback = function()
+            repeat wait() until game:IsLoaded()
+_G.Team = "Pirates" -- Pirates / Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyLocDz/Blox-Fruit/main/TinhLinhHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "redz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "TSUO BETA",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "panda",
+        Description = "",
+        Callback = function()
+            SpeedTween = 300
+getgenv().RandomFruit = true
+getgenv().EspFruit = true
+getgenv().Team = "Marines"
+getgenv().WebhookUrl = ''
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VNT-UNIVERSAL/Panda-Hub/main/Release/fruitfarm.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xeter",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "mashii",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Flontium2/Mashii-Hub/refs/heads/main/Main.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "crescent",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Xyzzz1Project/ScriptProject-Anti-Tamper/main/CrescentMoonAntiTamperV2"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "bounty XERO",
+        Description = "",
+        Callback = function()
+            getgenv().Configs = {
+    ["Team"] = "Pirates", -- Pirates/Marines
+    ["Auto Ken"] = true,
+    ["Auto Buso"] = true,
+    ["Auto turn on race v3"] = true,
+    ["Auto turn on race v4"] = true,
+    ["FPS Boost"] = false,
+    ["Click Time"] = 0.2,
+    ["Bypass TP"] = true,
+    ["Chat"] = {
+        ["Enable"] = false,
+        ["Message"] = {""}, -- Input your message here
+    },
+    ["Run When Low Health"] = {
+        ["Enable"] = true,
+        ["Health"] = 3500,
+        ["Come back"] = false
+    },
+    ["Region"] = "Singapore", -- Singapore, United States, Germany, France, India, ??? ...
+    ["Weapons"] = {
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1.75,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 1,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                }
+            }
+        },
+        ["Fruit"] = {
+            ["Enable"] = false,
+            ["Delay"] = 1.8,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["C"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
+                },
+                ["V"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
+                },
+                ["F"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
+                }
+            }
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.2,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.5,
+                }
+            }
+        },
+        ["Gun"] = {
+            ["Enable"] = false,
+            ["Delay"] = 0.5,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                }
+            }
+        }
+    },
+    ["Theme"] = {
+        ["Enable"] = true,
+        ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
+        ["Custom Theme"] = {
+            ["Enable"] = false,
+            ["Text Color"] = Color3.fromRGB(231, 85, 88),
+            ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
+        }
+    },
+    ["Webhook"] = {
+        ["Enable"] = true,
+        ["Url"] = "",
+        ["Image"] = ""
+    }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/autobounty.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rise",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xero",
+        Description = "",
+        Callback = function()
+            -- Max level, godhuman, CDK, soul guitar
+getgenv().Configs = {
+    ["Team"] = "Pirates",
+    ["FPS Boost"] = true,
+    ["Farm Boss Drops"] = {
+        ["Enable"] = true,
+        ["When x2 Exp Expired"] = true
+    },
+    ["Hop Player Near"] = false,
+    ["Soul Guitar"] = true,
+    ["Find Fruit"] = false, -- Will find 1m+ fruit to unlock swan door to access third sea
+    ["Cursed Dual Katana"] = true
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/refs/heads/main/kaitun.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "w-azure",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Marines"
+getgenv().AutoLoad = false
+getgenv().SlowLoadUi  = false
+getgenv().ForceUseSilentAimDashModifier = false
+getgenv().ForceUseWalkSpeedModifier = false
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min gaming new",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://paste.gg/p/anonymous/df420863c4314e888875e155c7c5833a/files/d39e859a821041e38525f8f53eb68a88/raw"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hutao",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/HutaoHubs/Hutaohubs2.0/refs/heads/main/Bloxfruit2.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min blue",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAPEng"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+getgenv().AntiCrash = true
+getgenv().BoostFps = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/main/HiruDone.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "beni",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/BeniHub", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rise new",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zen next gen",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "cyan",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly/VectorHub/main/CyanHub", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "tech",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptztyz/robloxscript/main/Teach_Hub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "relz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "faifao",
+        Description = "",
+        Callback = function()
+            _G.JoinTeam = "Marines" --// "Pirates"
+_G.Stop_If_Has_Items = true --// fasle
+loadstring(game:HttpGet("https://github.com/PNguyen0199/Script/raw/main/Trash_Auto_Chest.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "pear",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/Main/main/Betamain.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ORG",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ORG-hubb/ORG/main/output.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "experince",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Memories0912/Experience-Script/main/Gen2Beta.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hade hub",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Marines" -- Pirates, Marines
+getgenv().AntiCrash = false -- Anti Crash when load script/func idk
+getgenv().BoostFps = false -- recommend if you have bad phone
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/Loadstring/main/HadesGod.lua"))();
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru premium",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+getgenv().AntiCrash = false
+getgenv().BoostFps = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Super/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ripper",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/Module/main/Mobile_Script.lua'))();
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zap hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farrelghibran/zap/main/beta.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "sea hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/autobounty"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "dms",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/king-08/DMSHub/main/dms.lua",true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "brutality v4 hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/MedusaScript/Botuna/main/BrutalityHubV4.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ntt hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Nttvlog112/MH/main/NTT_HUB'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "star light",
+        Description = "",
+        Callback = function()
+            getgenv().Hide_UI = true
+getgenv().BlackScreen = false
+_G.HopFruit1M = false
+_G.KaitunConfig = {
+    ["Actions Allowed"] = {
+      ["Awakening Fruit"] = true,
+      ["Shark Anchor"] = true,
+      ["Mirror Fractal"] = true,
+      ["Soul Guitar"] = true,
+      ["Pole (1st Form)"] = true,
+      ["Upgrading Race"] = true,
+      ["Farming Boss Drop When Maxed Level"] = false,
+      ["Rainbown Haki"] = true,
+      ["Cursed Dual Katana"] = true,
+      ["Buy accessories"] = true,
+      ["Buy Hakis"] = true,
+      ["Buy Guns"] = true,
+      ["Buy Swords"] = true,
+      ["Upgrade Weapons"] = true,
+      ["Farming Boss Drops When X2 Expired"] = true,
+      ["Mirage Puzzle"] = true,
+      ["Saber"] = true
+    },
+    ["Fps Boosting"] = true,
+    ["Fruit Snipping"] = true,
+    ["Fruit Eating"] = false,
+    ["High Ping Hop"] = true,
+    ["Fruit Choosen"] = {
+      ["T-Rex-T-Rex"] = true,
+      ["Shadow-Shadow"] = true,
+      ["Mammoth-Mammoth"] = true,
+      ["Gravity-Gravity"] = true,
+      ["Spirit-Spirit"] = true,
+      ["Dark-Dark"] = true,
+      ["Rocket-Rocket"] = true,
+      ["Control-Control"] = true,
+      ["Dough-Dough"] = true,
+      ["Leopard-Leopard"] = true,
+      ["Venom-Venom"] = true,
+      ["Dragon-Dragon"] = true,
+      ["Diamond-Diamond"] = true,
+      ["Kitsune-Kitsune"] = true,
+      ["Spring-Spring"] = true
+    },
+    ["Player Nearing Hop"] = true,
+    ["Allow Stored"] = true,
+    ["Race Choosen"] = {
+      ["Human"] = true
+    },
+    ["Race Snipping"] = true,
+    ["Tween Speed"] = 350,
+    ["Same Y Tween"] = true,
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/memaybeohub/NewPage/main/Kaitun.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zoro",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/pokelok/zoru-hub/main/01"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates" -- Pirates/Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "astral",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Augustzyzx/A-s-t-r-a-l/main/BF.html'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "demon hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farrelghibran/demon/main/source.app"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "youm hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YoumHub", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min new hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/main/MinGamingEng"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "summer",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/EvenZ1/EvenZYeuEm/main/SummerMain"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ytb",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "omg",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/main.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "nope",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Zunes-Bypassed/NOPE/main/NOPE.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hoho",
+        Description = "",
+        Callback = function()
+            _G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "shiny",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaqueHub/ShinyHub/main/AllScript"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "makima",
+        Description = "",
+        Callback = function()
+            i= 1 or math.random(1,1)
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/KeneiKung/Uploaded_Contents/main/Makima.Cum-Index='..tostring(i)))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "crazzy v3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RedGamer12/TNNP-SYSTEM/main/client/main-2.lua"), true)()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hade",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates" -- Pirates, Marines
+getgenv().AntiCrash = false -- Anti Crash when load script/func idk
+getgenv().BoostFps = false -- recommend if you have bad phone
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/Loadstring/main/HadesGod.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "cokka",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "andepzai",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min small",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinPay.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "neva",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "sitinks",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+getgenv().Executor = "Android" -- Android or PC --
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "tsuo kaitun",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/TsuohubKaitun"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "brutality v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/MedusaScript/Botuna/main/BrutalityV2.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "XERO hub",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Marines" -- Pirates/Marines
+getgenv().Fix_Lag = true -- true/false
+getgenv().Auto_Execute = false -- true/false
+getgenv().Clear_Settings = false -- true/false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "HiruHub",
+        Description = "",
+        Callback = function()
+            getgenv().Fix_Lag = true
+getgenv().Auto_Execute = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Beta/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "HiruHub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Main/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "SB hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "cokka",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "XSEA",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/UpdateLog/main/LoaderX.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "KindHub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/KindHub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "RAGNAROK hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Ragnarok.Lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "smile",
+        Description = "",
+        Callback = function()
+            repeat wait() until game:IsLoaded()
+_G.Team = "Pirates" -- Pirates / Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyLocDz/Blox-Fruit/main/TinhLinhHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zee",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "NJA",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/N-Ja.Lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "INFINITE V2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Baokhanh208/Infinite/main/filesrc.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/Rewrite.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "INFINITE v3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/DNHA05/Infinite/main/Infinite%20Hub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "INFINITE",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/mkhoidzvl13/Infinite-Hub/main/Infinite.txt"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "relz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xsea",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/Release-/main/Release.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xeter",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ninja",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/NinjaHub/main/LoaderBloxFruit.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "stack",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://stacktop.xyz/s"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "kee",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Kee-Hub/main/keev2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xsea",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/Release-/main/Release.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "faifao",
+        Description = "",
+        Callback = function()
+            lloadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xsea",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/Release-/main/Release.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "banana",
+        Description = "",
+        Callback = function()
+            _G.Key = "AfxcaxiRoblox"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RafakjRoblox/Crack/main/Banana%20No%20Key"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/FruitLoadder.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "matsunehubv1",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/matsunehubv1.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/Rewrite.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru",
+        Description = "",
+        Callback = function()
+            getgenv().Fix_Lag = true
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/SunHub", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xsea",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/Release-/main/Release.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "NIGHT",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates" -- Pirates / Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/LoaderScript.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "faifao",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "moon",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "quantum",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QuantumNEXTGen/main/QuantumHubNEXT"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "pear",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/pearcathub.lua/main/vaicapia.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "domainance",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Dominance'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "quantum",
+        Description = "",
+        Callback = function()
+            getgenv().Mode = "PVP"
+getgenv().Team = "Pirates" -- Options "Marines", "Pirates"
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+        end   
+ })
+Tabs.bloxfruit:AddButton({
+        Title = "valk v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptssz/Folder_Script/main/Valk_Hub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Basicallyybeta/mingane/main/MinGamingNew.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "windy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/Rewrite.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "x-ray hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/SeaBabyBF/X-rayse/main/X-RayHub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed hub v3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "alchemy",
+        Description = "",
+        Callback = function()
+            _G.Aimbot = true
+loadstring(game:HttpGet("https://alchemyhub.xyz/n.g"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "kee",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Kee-Hub/main/keemain.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ymie",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+getgenv().id = "1226743840325501060"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NhiYeuAnh/YMIE-HUB/main/YMIEHUBV2.txt"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/UpdateNewV2/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "matsune v4",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/matssunehub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rinx",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGetAsync"https://github.com/RinXHub/RinX/raw/main/output.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "lunar  x",
+        Description = "",
+        Callback = function()
+            _G.Team = "Pirates"--Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/LunarXHubNextGeneration/main/GameShit.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "galaxy",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GalaxyTeamHub/Galaxy-Hub/main/GalaxyBloxFruit.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "seagate blue",
+        Description = "",
+        Callback = function()
+            _G.Loader = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SeaBabyBF/seamain/main/SeaGateNextGenz"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "matsune",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/Matsunebeta.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "hiru",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Update_new/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "seagate",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/SeaBabyBF/seamain/main/LoaderSeagate"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "mukuro",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "muxus",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/MuxusTL/BloxFruits/main/MuxusHub_V2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ziner",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min seagate",
+        Description = "",
+        Callback = function()
+            _G.LoadUiFast = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/MinGamingHub/main/mingamingupdatenew"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "winter v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "matsure v3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/MatsuneV3.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "min green",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "banana",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nghia11n/Banana-Hub/main/bananahub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "alchemy",
+        Description = "",
+        Callback = function()
+            _G.Aimbot = true
+loadstring(game:HttpGet("https://luable.top/acm"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "MBM V3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "MBM",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/FF%20.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Winter",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V1beta.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "relx",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "neon",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/LoaderScript.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ps hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xZPUHigh/Project-Spectrum/main/SpectrumX.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Hiru",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Update_new/main/HiruHub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "TREZ hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/Trezzyisbest", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "MBM V3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "TSUO",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "winter",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "NEON",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/LoaderScript.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "najax",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NaJaxHub/M/main/%3F.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "z azure",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://shz.al/dwdT/MainLoader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rinx",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RinHubb/RinHub/main/RinXFruitFinder"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rinx",
+        Description = "",
+        Callback = function()
+            _G.Language = "English"
+loadstring(game:HttpGetAsync'https://shz.al/~RinXScript')()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "strawberrywberry",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/Sotringhuhu/main/Strawberry"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "XERO",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Marines" -- Pirates/Marines
+getgenv().Fix_Lag = true -- true/fals
+loadstring(game:HttpGet("https://xerohub.click/script/main.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "grayx",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/mkhoidzvl13/Grayx/main/GrayXLoader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "maris",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Fram-Chest.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "MBM",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/0135"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Winter",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/WinharHuB.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Strowberry",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/Sotringhuhu/main/StrawberryHubBeta1.35"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Min",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingVIP.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "maris",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Maris-Hub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "strawberry",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/Sotringhuhu/main/StrawberryHup"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "maris",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/FruitFinder.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "UnknownHubV3",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/UnknownHubV3"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "REDZ v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "apple",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHubOnTop/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "khang",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Nguyenchikhangg/YTB_Khang_Mod_Game/main/Khang_Mod_Game_Version_1.2.txt"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "kanyom",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://shz.al/~KamyonHubVerison1'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "memmories",
+        Description = "",
+        Callback = function()
+            getgenv().ChooseGetKey = "Easy Key 12 Hours"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Memories0912/Blox-Fruits/main/Memories.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Rinx",
+        Description = "",
+        Callback = function()
+            _G.Language = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RinHubb/RinHub/main/scibidirinxver2"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "SB",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "alchemy",
+        Description = "",
+        Callback = function()
+            _G.Language = "EN" -- EN or TH
+v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "PC without emulator",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/PayBack.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "azure v2",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "UNIT hub",
+        Description = "",
+        Callback = function()
+            getgenv().__sex = {
+    Key = 'PASTE KEY HERE',
+    WebGetKey = 'hentaivl.space/getkey.php',
+}
+loadstring(request({Url="https://raw.githubusercontent.com/Kelv1v/Unit_Hub/main/ditbloxfruit.lua",Method="GET"}).Body)()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "vector",
+        Description = "",
+        Callback = function()
+            _G.Mode = "Eng"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "Faifao",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "apple new",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHubOnTop/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "vector",
+        Description = "",
+        Callback = function()
+            _G.Mode = "ไทย" -- ไทย | Vn
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "payback",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/PayBack.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "master,
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/onepicesenpai/onepicesenpai/main/onichanokaka'))()
+        end
+    })
+
+Tabs.bloxfruit:AddButton({
+        Title = "wolf hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "royx",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Donate-Me/main/free%20bf.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zuesz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rein",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RinHubb/RinHub/main/Rin_Hub_Auto_Farm.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed hub",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "memmories",
+        Description = "",
+        Callback = function()
+            getgenv().ChooseGetKey = "Easy Key 12 Hours"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Memories0912/Blox-Fruits/main/Memories.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "yukai",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/yukaimainscript", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rein",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/ReinLoader'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zek rom",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "mbm",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/m1M-Plqer819/any/main/mbmxhub/beta"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "watermelon",
+        Description = "",
+        Callback = function()
+            _G.English = true
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/75487fb8949349828e4e4a91bfb8eb6e/files/6ebc9f2055f641fbb606ff494ac4ee53/raw"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "bonez",
+        Description = "",
+        Callback = function()
+            _G.English = true
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/75487fb8949349828e4e4a91bfb8eb6e/files/6ebc9f2055f641fbb606ff494ac4ee53/raw"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "radon",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/RadonHub/main/Script.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "sukuna",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/pokelokbr/Dr.peste/main/sukunav9"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "radon",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/RadonHub/main/Script.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "dakii v2",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dakiiuem/DakiiV2/main/MainV2", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "alchemy",
+        Description = "",
+        Callback = function()
+            v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/Annie-Hub/main/Main"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "vector",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/uh.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "relz",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            _G.Theme = ""
+_G.Ui = "Mobile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "dakii",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/dakiiuem/DakiiMainBF/main/Main%20BF", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "rimus",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/vuquocoai123/lua/main/Blox-Fruit-RimusHub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "slimeX",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Slimexiuem/Slimexhub/main/Slimex-hub"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "maris v1",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Maris-Hub'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "vector",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/BloxFruit-VersionBeta"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "zek",
+        Description = "",
+        Callback = function()
+            _G.Chest_Farm = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "mtien",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/MTienHub/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "apple",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/ImTienNguyenZ/main/obf_lc8NZP74x7Y0j6TZs4B8c2EF93mtOpRQZkarI3R8GiBRedSlkA2293QygddzqIWU.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "minxt",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "maris",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Maris-Hub'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "lore",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/GoblinKun009/Script/main/loreloader"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "xero",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Marines" -- Pirates/Marines
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/main.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "redz,
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "azure",
+        Description = "",
+        Callback = function()
+            getgenv().Team = "Pirates"
+getgenv().FixCrash = false
+getgenv().FixCrash2 = false
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "mtrient",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "raito",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+        end
+    })
+	local Tabs = {
+    adustytrip = Window:AddTab({ Title = "fisch", Icon = "" }),
+}
+Tabs.bloxfruit:AddButton({
+        Title = prestine",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RSenix3/PrestineHub/refs/heads/main/PrestineKeyless"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "matsune",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune_Mobile/refs/heads/main/Fishloader.org"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "annie",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ps",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xZPUHigh/Project-Spectrum/main/Loader.lua"))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "bonk",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://bonkhubloader.netlify.app",true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "14k",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/q7j7nAf0",true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "speed",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "flow",
+        Description = "",
+        Callback = function()
+            script_key="PASTE_KEY_HERE";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aviorety/Flow/refs/heads/main/Loader.lua"))()
+-- Get Key : https://discord.gg/flowrbx
+        end
+    })
+Tabs.bloxfruit:AddButton({
+        Title = "ps",
+        Description = "",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/xZPUHigh/Project-Spectrum/main/Loader.lua"))()
+        end
+    })
